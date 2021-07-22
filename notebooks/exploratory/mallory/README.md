@@ -27,11 +27,12 @@ This project uses different forms of modeling and inferential analysis, in order
 ## Conclusions
 
 
-## Next Steps
 
+## Next Steps
+The next steps that should be taken would be to look into other kinds of chocolate, such as milk chocolate since this database only contained dark chocolate. Also, creating a Graphical User Interface(GUI) would be helpful for companies to input features of chocolate they are looking at and the GUI will produce a prediction of what the rating of their chocolate would be. One last step to take would be to look into how extra ingredients, such as nuts or caramel affect the rating of the candy bar. 
 
 ## For More Information
-Please review the full analysis via Jupyter Notebook or Powerpoint.  For any additional question please contact Mallory Wilson at mallorye1103@gmail.com, Dorothy Alexander at dorothy408@gmail.com, and James Chandler O'Neal  at jchandleroneal@gmail.com.
+Please review the full analysis via Jupyter Notebook or Powerpoint. For any additional question please contact Mallory Wilson at mallorye1103@gmail.com, Dorothy Alexander at dorothy408@gmail.com, and James Chandler O'Neal at jchandleroneal@gmail.com 
 
 
 ## Repository Structure
