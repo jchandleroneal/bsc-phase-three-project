@@ -10,7 +10,6 @@ A chocolate company wants to find out why some of their dark chocolate bars sell
 
 
 ## Business Problem
-
 A dark chocolate bar company notices that some of their chocolates sell out faster than others, and some never sell.  Chocolate  companies may be able to focus their funding on acquiring beans from certain countries or on beans with a medium level cocoa percent in order to improve sales. In order to determine the reasoning behind these outcomes, the company needs to find out what features of a chocolate bar make it better than others. The goal of this project was to predict the most valuable features that go into a high rated chocolate bar. 
 
 
@@ -21,11 +20,11 @@ The Flavors of Cacao dataset contained multiple columns that could have an impac
 ## Methods
 This project uses different forms of modeling and inferential analysis, in order to find relationships between different chocolate variables and features. The first thing done was turning all of the categorical data into 0's and 1's so that they could be put into model's. The project began with a baseline logistic regression model, then some decision tree models, a random forest classifier, and a pipline model. A Grid Search was performed to find out which hyperparameters worked best for the models. These models were then tuned with different hyperparameters that were found. 
 
-## Results
-
+## Results 
+The best model for this dataset was a Decision Tree Classifier with a GridsearchCV for the best perameters. The features that were most important for this model are the ingredients, the company maufacturer, and the specific bean origin with the highest weighted ratings. 
 
 ## Conclusions
-
+After testing many different models with different features, the chocolate features that are most impactful on the rating of chocolate includes chocolate bars that contain the ingredients Bean, Sugar, and Cocoa Butter. Chocolate made by these five companies: Idilo, Cacao Sampaka, Soma, Brasstown aka It's Chocolate, and Ritual. 
 
 
 ## Next Steps
