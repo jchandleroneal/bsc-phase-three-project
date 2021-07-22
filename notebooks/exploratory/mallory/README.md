@@ -15,11 +15,11 @@ A dark chocolate bar company notices that some of their chocolates sell out fast
 
 
 ## Data Understanding/Preparation
-The Flavors of Cocoa dataset contained multiple columns that could have an impact on our target, what the rating of a chocolate bar is. These include    
+The Flavors of Cocoa dataset contained multiple columns that could have an impact on our target, what the rating of a chocolate bar is. These include the percent of cocoa, the most memorable characteristic, the company location, where the bean is from, the rating of the chocolate, and the different ingredients that were used.   
 
 
 ## Methods
-This project uses different forms of modeling and inferential analysis, in order to find relationships between different chocolate variables and features. The first thing done was turning all of the categorical data into 0's and 1's so that they could be put into model's. The project began with a baseline logistic regression model, then some decision tree models, and a random forest classifier. A Grid Search was performed to find out which hyperperameters worked best for the models. These models were then tuned with different hyperperameters that were found. 
+This project uses different forms of modeling and inferential analysis, in order to find relationships between different chocolate variables and features. The first thing done was turning all of the categorical data into 0's and 1's so that they could be put into model's. The project began with a baseline logistic regression model, then some decision tree models, a random forest classifier, and a pipline model. A Grid Search was performed to find out which hyperperameters worked best for the models. These models were then tuned with different hyperperameters that were found. 
 
 ## Results
 
