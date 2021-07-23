@@ -60,13 +60,13 @@ After testing many different models with different features, the chocolate featu
 The next steps that should be taken would be to look into other kinds of chocolate, such as milk chocolate since this database only contained dark chocolate. Also, creating a Graphical User Interface(GUI) would be helpful for companies to input features of chocolate they are looking at and the GUI will produce a prediction of what the rating of their chocolate would be. One last step to take would be to look into how extra ingredients, such as nuts or caramel affect the rating of the candy bar. 
 
 ## For More Information
-Please review the full analysis via [Jupyter Notebook]() or [Powerpoint](./Chocolate_Rating_Analysis.pdf). For any additional question please contact Mallory Wilson at mallorye1103@gmail.com, Dorothy Alexander at dorothy408@gmail.com, and James Chandler O'Neal at jchandleroneal@gmail.com 
+Please review the full analysis via [Jupyter Notebook](./notebooks/final_notebook.ipynb) or [Powerpoint](./Chocolate_Rating_Analysis.pdf). For any additional question please contact Mallory Wilson at mallorye1103@gmail.com, Dorothy Alexander at dorothy408@gmail.com, and James Chandler O'Neal at jchandleroneal@gmail.com 
 
 
 ## Repository Structure
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── main_notebook.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── final_notebook.ipynb   <- Narrative documentation of analysis in Jupyter notebook
 ├── Chocolate_Rating_Analysis.pdf         <- PDF version of project presentation
 ├── data                                <- Both sourced externally and generated from code
 └── images   
