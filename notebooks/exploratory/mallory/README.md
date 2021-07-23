@@ -23,6 +23,35 @@ This project uses different forms of modeling and inferential analysis, in order
 ## Results 
 The best model determined for this dataset was a Decision Tree Classifier with a GridsearchCV for the best perameters. The features that were most important for this model are the ingredients, the company maufacturer, and the specific bean origin with the highest weighted ratings. 
 
+
+
+## Results
+
+![features bar plot](images/impactful_features.png)
+
+The visualization above displays the five most impactful features that make a high rated chocolate bar. The most impactful feature is where the chocolate bar is manufactuered by a certain company. The company manuufacturer bin d was created by the overall top companies with the highest success rate.
+
+---
+
+![manufacture ratings](images/manufacture_ratings.png)
+ 
+Above shows the manufacturer ratings that are broken down into four different groups. These groups were formed by looking at the company manufacturers from least successful to most successful according to ratings. 
+
+---
+
+![top companies](images/top_5_companies.png)
+
+This visual graph goes in depth into which companies have the majority of most successful chocolate bars in bin d. 
+
+---
+
+
+![ingredients list](images/ingredients_list.png)
+
+This graph displays the top 9 ingredients that goes into making a high rating chocolate bar. The ingredient list with the highest rating consists of B,S,C. 
+
+---
+
 ## Conclusions
 After testing many different models with different features, the chocolate features that are most impactful on the rating of chocolate includes chocolate bars that contain the ingredients Bean, Sugar, and Cocoa Butter. Chocolate made by these five companies: Idilo, Cacao Sampaka, Soma, Brasstown aka It's Chocolate, and Ritual. 
 
@@ -37,8 +66,8 @@ Please review the full analysis via Jupyter Notebook or Powerpoint. For any addi
 ## Repository Structure
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── main_noteboook.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── CMD_Project_Presentation.pdf         <- PDF version of project presentation
+├── main_notebook.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── Chocolate_Rating_Analysis.pdf         <- PDF version of project presentation
 ├── data                                <- Both sourced externally and generated from code
 └── images   
 
