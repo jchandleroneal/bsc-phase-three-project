@@ -1,1 +1,1 @@
-Mallory's notebooks
+Mallory's exploratory notebooks
