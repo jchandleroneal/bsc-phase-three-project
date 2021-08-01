@@ -34,11 +34,11 @@ This project utilized logistic regression, decision tree classifiers, random for
 ## Results
 
 
-The five most prominant features in creating a highly rated chocolate bar resulted in the following:
+The five most prominent features in creating a highly rated chocolate bar resulted in the following:
 
-1. Comany manufacturer - Bin D (company manufacturers with the greatest number of positive ratings), 
+1. Company manufacturer - Bin D (company manufacturers with the greatest number of positive ratings), 
 2. Ingredient Combinations - B, S, C (bean, sugar, cocoa butter), 
-3. Comany manufacturer - Bin C (company manufacturer with the second greatest number of positive ratings), 
+3. Company manufacturer - Bin C (company manufacturer with the second greatest number of positive ratings), 
 4. Specific Bean Origin - 3 (bean growth origin with the resulted highest weighted ratings), 
 5. Ingredient Combination - B, S, C, V, L (Bean, Sugar, Cocoa butter, Vanilla, Lecithin).
 
@@ -46,21 +46,21 @@ The five most prominant features in creating a highly rated chocolate bar result
 
 ---
 
-The hows the manufacturer ratings that are broken down into four different groups. These groups were formed by looking at the company manufacturers from least successful to most successful according to ratings.
+The following companies were bucketed according to their indexes (row locations). While "d" had the largest number of companies, it also had the least amount of negative ratings making it a valuable group of comapanies. 
+* Both negative and positive ratings were grouped using values of 1 for positive (rating > 3) and 0 for negative (rating < 3). The number of negative rating occurances appear in blue and positive in orange. 
 
 ![manufacture ratings](images/manufacture_ratings.png)
  
 ---
 
-Company manufacturer with the second greatest number of positive ratings
-This visual graph goes in depth into which companies have the majority of most successful chocolate bars in bin d. 
+While "d" proved to be valuable in resulting in a positive rating, it made more sense to further classify it by taking the top 5 performing companies from group "d". Idilo, Cacao Sampaka, Soma, Brasstown aka It's Chocolate, and Ritual outperformed the other companies in terms of positive ratings with a mean average rating above 3.5.
 
 ![top companies](images/top_5_companies.png)
 
 ---
 
 
-Portrayal of the top 9 ingredients nine most highly rated groups of ingredient. The ingredient list with the highest rating consists of B,S,C. 
+Portrayal of the 9 ingredients that produced the highest ratings. In terms of feature importance, B, S, C (bean, sugar, cocoa butter), or B, S, C, V, L (Bean, Sugar, Cocoa butter, Vanilla, Lecithin) proved to be the most impactful in towards producing a highly rated chocolate bar.
 
 ![ingredients list](images/ingredients_list.png)
 
@@ -68,9 +68,9 @@ Portrayal of the top 9 ingredients nine most highly rated groups of ingredient. 
 
 ## Conclusions
 
-* Hu Kitchen should focus their funding on partnering with one of the following companies to create their new chocolate bar: Idilo, Cacao Sampaca, Soma, Brasstown aka It's Chocolate, or Ritual. 
+* Hu Kitchen should focus their funding on partnering with one of the following companies to create their new chocolate bar: Idilo, Cacao Sampaka, Soma, Brasstown aka It's Chocolate, or Ritual. 
 
-* They should also use ingredient combinations of either B, S, C (bean, sugar, cocoa butter), or B, S, C, V, L (Bean, Sugar, Cocoa butter, Vanilla, Lecithin) 
+* They should also use ingredient combinations of either B, S, C (bean, sugar, cocoa butter), or B, S, C, V, L (Bean, Sugar, Cocoa butter, Vanilla, Lecithin).
 
 * Lastly, Hu Kitchen should also use a bean growth origin from one of the numerous groups (classified as group C) with the highest weighted averages for rating such as the Dominican Republic. 
 
