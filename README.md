@@ -47,6 +47,7 @@ The five most prominent features in creating a highly rated chocolate bar result
 ---
 
 The following companies were bucketed according to their indexes (row locations). While "d" had the largest number of companies, it also had the least amount of negative ratings making it a valuable group of comapanies. 
+
 * Both negative and positive ratings were grouped using values of 1 for positive (rating > 3) and 0 for negative (rating < 3). The number of negative rating occurances appear in blue and positive in orange. 
 
 ![manufacture ratings](images/manufacture_ratings.png)
