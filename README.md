@@ -77,7 +77,8 @@ Portrayal of the 9 ingredients that produced the highest ratings. In terms of fe
 ---
 
 ## Next Steps
-The next steps that should be taken would be to look into other kinds of chocolate, such as milk chocolate since this database only contained dark chocolate. Also, creating a Graphical User Interface(GUI) would be helpful for companies to input features of chocolate they are looking at and the GUI will produce a prediction of what the rating of their chocolate would be. One last step to take would be to look into how extra ingredients, such as nuts or caramel affect the rating of the candy bar. 
+
+The next steps for this project would be to create a graphical user interface (GUI) that would enable Hu Kitchen to interact with the final model to assist them with predicting the outcome of numerous combinations of chocolate bars, and to add other types of chocolate into the model to cover a more vast audience.
 
 ---
 
