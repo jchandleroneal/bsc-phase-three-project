@@ -47,7 +47,6 @@ The five most prominent features in creating a highly rated chocolate bar result
 ---
 
 The following companies were bucketed according to their indexes (row locations). While "d" had the largest number of companies, it also had the least amount of negative ratings making it a valuable group of comapanies. 
-
 * Both negative and positive ratings were grouped using values of 1 for positive (rating > 3) and 0 for negative (rating < 3). The number of negative rating occurances appear in blue and positive in orange. 
 
 ![manufacture ratings](images/manufacture_ratings.png)
@@ -78,7 +77,8 @@ Portrayal of the 9 ingredients that produced the highest ratings. In terms of fe
 ---
 
 ## Next Steps
-The next steps that should be taken would be to look into other kinds of chocolate, such as milk chocolate since this database only contained dark chocolate. Also, creating a Graphical User Interface(GUI) would be helpful for companies to input features of chocolate they are looking at and the GUI will produce a prediction of what the rating of their chocolate would be. One last step to take would be to look into how extra ingredients, such as nuts or caramel affect the rating of the candy bar. 
+
+The next steps for this project would be to create a graphical user interface (GUI) that would enable Hu Kitchen to interact with the final model to assist them with predicting the outcome of numerous combinations of chocolate bars, and to add other types of chocolate into the model to cover a more vast audience.
 
 ---
 
