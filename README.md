@@ -1,6 +1,6 @@
 # Chocolate Rating Analysis
 
-![features bar plot](./images/cover_chocolate.jpg)
+![features bar plot](./images/main_cover.png)
 
 ---
 ## Authors:
@@ -12,7 +12,7 @@
 
 This project focused on creating a model that could determine the factors with the largest role in producing a highly rated chocolate bar. The project used The Flavors of Cacao dataset containing 2,236 rows (items) and 19 columns (features) which, through exploratory data analysis and preprocessing, we then consolidated to 2231 rows, and 8 features. This model could be useful for Hu Kitchen to create a new chocolate bar with a high rating (above 3.0 out of 4.0).  
 
---
+---
 
 ## Business Problem
 Hu Kitchen has sought out for a model that would offer them insight in creating a highly rated chocolate bar.Hu Kitchen may benefit from focusing their funding on cocoa percentage, ingredients, bean origin, and partnering with other chocolate producers to create a new chocolate bar with a high rating. This project used F-1 Score for its metric as it does not consider false negatives (predicting a negative rating when it was actually positive) a higher priority and vice versa - rather, it weighs them equally.
@@ -29,7 +29,7 @@ The project used The Flavors of Cacao dataset which included 19 features; some o
 
 This project utilized logistic regression, decision tree classifiers, random forest classification models, and pipelines to determine the best possible predictions. The Random Forest Classifier outperformed the other models validation sets and predicted the rating of the final test set of the given chocolate bar features with an accuracy of 79.1%. In order to gain these results, the Random Forest model was first run through a pipeline that performed SMOTE to deal with the imbalance within the dataset and finally ran a GridSearchCV to to establish the best hyperparameters (criterion, max_depth, max_leaf_nodes, and class_weight) to tune the model with.
 
---
+---
 
 ## Results
 
