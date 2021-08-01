@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chocolate Rating Analysis
 
 
@@ -42,3 +43,6 @@ Please review the full analysis via Jupyter Notebook or Powerpoint. For any addi
 ├── data                                <- Both sourced externally and generated from code
 └── images   
 
+=======
+Mallory's exploratory notebooks
+>>>>>>> 8589eb23c23a840563823049a055a0790250b2be
