@@ -1,6 +1,6 @@
 # Chocolate Rating Analysis
 
-![features bar plot](./images/main_cover.png)
+![features bar plot](./images/main_cover.jpg)
 
 ---
 ## Authors:
